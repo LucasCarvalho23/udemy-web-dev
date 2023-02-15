@@ -1,0 +1,16 @@
+.main-class {
+    width: 750px;
+    border: 1px solid red;
+}
+
+.notice-class {
+    background-color: lightgray;
+    padding: 5px;
+    width: 200px;
+    margin: 5px;
+    float: left;
+}
+
+.clear-class {
+    clear: both;
+}

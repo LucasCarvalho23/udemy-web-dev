@@ -1,0 +1,38 @@
+.container-content-class {
+    background-color: lightblue;
+    width: 250px;
+    height: 250px;
+    border: 1px solid blue;
+}
+
+.container-content1-class {
+    background-color: lightpink;
+    width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+    float: left;
+}
+
+.container-content3-class {
+    background-color: lightgray;
+    width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+    float: right;
+}
+
+.container-contentx-class {
+    background-color: lightgreen;
+    width: 250px;
+    height: 250px;
+    border: 1px solid blue;
+    float: left;
+}
+
+.main-class {
+    background-color: violet;
+}
+
+.clear {
+    clear: both;
+}
