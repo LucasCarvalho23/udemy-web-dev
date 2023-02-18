@@ -1,0 +1,41 @@
+body {
+    background-color: lightpink;
+}
+
+.container-class {
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    width: 500px;
+}
+
+p {
+    width: 200px;
+}
+
+.relative-class {
+    position: relative;
+    left: 50px;
+}
+
+.fixed-class {
+    position: fixed;
+    top: 40px;
+    right: 150px
+}
+
+.absolute-class {
+    position: absolute;
+    background-color: lightblue;
+    top: 400px;
+    right: 150px;
+    z-index: 1;
+}
+
+.twoAbsolute-class {
+    position: absolute;
+    background-color: lightgray;
+    top: 400px;
+    right: 150px;
+    z-index: 1;
+}
