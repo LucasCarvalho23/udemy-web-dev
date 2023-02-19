@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(248, 239, 189);
+}
+
+a {
+    padding-left: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.021);
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #f3b238 url('../image/menu.png') no-repeat left top;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, .selected-class {
+    background-position: top right;
+    background-color: #f19d00;
+    color: white;
+}
+
+.h2-class {
+    padding: 50px;
+}
