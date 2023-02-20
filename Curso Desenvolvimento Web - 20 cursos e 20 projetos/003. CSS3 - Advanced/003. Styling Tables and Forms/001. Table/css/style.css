@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    letter-spacing: .1em;
+}
+
+th {
+    text-transform: uppercase;
+    text-align: left;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid gray;
+    background-color: #d8d6d6;
+}
+
+tr:hover {
+    background-color: rgb(224, 243, 250);  
+    cursor: pointer; 
+}
+
+.alternative {
+    background-color: #efefef;
+}

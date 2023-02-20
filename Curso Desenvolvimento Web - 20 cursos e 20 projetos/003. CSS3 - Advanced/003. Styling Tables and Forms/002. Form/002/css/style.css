@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #e5c9f8 url("../image/fundo.jpg") no-repeat;
+    text-align: center;
+}
+
+.container-main-class {
+    margin-top: 100px;
+}
+
+fieldset {
+    background-color: #e5c9f84d;
+    height: 340px;
+    width: 300px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+.input-class {
+    padding: 5px;
+    width: 260px;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+#email-id {
+    margin-top: 35px;
+    background: white url("../image/icone-usuario.png") no-repeat;
+    background-position: 2px;
+    padding: 8px;
+    padding-left: 40px;
+}
+
+#password-id {
+    margin-top: 10px;
+    background: white url("../image/icone-cadeado.png") no-repeat;
+    background-position: 2px;
+    padding: 8px;
+    padding-left: 40px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 7px;
+    width: 260px; 
+    background-color: orange;
+    color: white;
+    border: 1px solid rgb(187, 122, 2);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(202, 132, 2);
+}
