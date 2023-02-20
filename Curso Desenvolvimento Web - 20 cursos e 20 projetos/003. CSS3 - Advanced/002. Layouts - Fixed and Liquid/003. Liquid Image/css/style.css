@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 85%;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    background: #225992 url("../image/cabecalho2.jpg") no-repeat center;
+}
+
+main {
+    width: 85%;
+    height: 600px;
+    text-align: center;
+}
+
+.container-main-class {
+    float: right;
+    width: 74.28%;
+}
+
+.container-first-class {
+    float: left;
+    width: 50%;
+    height: 600px;
+    padding-top: 10px;
+}
+
+.container-first-class p, .container-second-class p {
+    font-size: .9em;
+    padding-top: 10px;
+}
+
+hr {
+    margin: 20px;
+}
+
+.container-second-class {
+    float: right;
+    width: 50%;
+    height: 600px;
+    padding-top: 10px;
+    background-color: lightgray;
+}
+
+.img-class {
+    width: 90%;
+}
+
+.navbar-class {
+    float: left;
+    width: 25.72%;
+    height: 130px;
+    background-color: lightgray;
+    padding-top: 10px;
+}
+
+.navbar-class ul {
+    padding: 10px;
+}
+
+.navbar-class li {
+    list-style: none;
+    font-size: .9em;
+}
+
+footer {
+    width: 85%;
+    background-color: rgb(184, 183, 183);
+    padding: 10px;
+    text-align: center;
+    font-size: .8em;
+}
