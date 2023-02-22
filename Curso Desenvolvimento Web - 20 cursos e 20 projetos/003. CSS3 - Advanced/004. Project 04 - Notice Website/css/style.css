@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: white url("../image/fundo.png") repeat-x;
+}
+
+.container-main-class {
+    width: 750px;
+    margin: auto;
+    
+}
+
+
+/*
+    HEADER
+*/
+
+header {
+    height: 150px;
+    background: url("../image/detalhe-topo.png") no-repeat right;
+    padding-top: 25px;
+}
+
+.logo-class {
+    background: url("../image/logo.png") no-repeat;
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+}
+
+.container-nav-class > ul {
+    list-style: none;
+    margin-top: 30px;
+    float: left;
+    background-color: #b10333;
+}
+
+.container-nav-class > ul > li {
+    float: left;
+}
+
+.container-nav-class > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: .5em 1em;
+    display: block;
+    line-height: 2.1em;
+    background: url("../image/divisor.png") no-repeat left;
+}
+
+.container-nav-class > ul > li > .first-link-class {
+    background: none;
+}
+
+.container-nav-class > ul > li > a:hover {
+    background-color: #9e032f;
+}
+
+body.home .container-nav-class a#home-id, 
+body.world .container-nav-class a#world-id, 
+body.nacional .container-nav-class a#nacional-id, 
+body.science .container-nav-class a#science-id, 
+body.tecnology .container-nav-class a#tecnology-id, 
+body.economy .container-nav-class a#economy-id,
+body.sports .container-nav-class a#sports-id  {
+    color: #fff;
+    background-color: #9e032f;
+    cursor: text;
+}
+
+
+/* 
+    MAIN
+*/
+
+main {
+    background: url("../image/fundo-caixa.png");
+}
+
+.container-main {
+    margin-top: 100px;
+}
+
+.mainsContant-class {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#two-column .mainsContant-class {
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+
+#one-column .mainsContant-class {
+    width: 750px;
+    float: left;
+    margin: 0 0 20px 0px;
+}
+
+.secondaryContant-class {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+#two-column .secondaryContant-class {
+    display: none;
+}
+
+#one-column .secondaryContant-class {
+    display: none;
+}
+
+
+
+/* 
+    INTERVIEWS
+*/
+
+.leftContant-class {
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
+#one-column .leftContant-class {
+    display: none;
+}
+
+.container-interviews-class > h2, 
+.container-newsform-class > h2, 
+.container-hightlight-class > h2,
+.recentnews-class > h2 {
+    margin: 5px;
+    background-color: #294671;
+    color: white;
+    padding: 5px;
+}
+
+.container-interviews-class > ul {
+    margin: 10px;
+    background-color: white;
+    list-style: none;
+    padding: 5px;
+    font-size: .8em;
+    line-height: 2em;
+}
+
+.container-interviews-class > ul > li {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.container-interviews-class > ul > li:hover {
+    color: gray;
+    cursor: pointer;
+    background: url("../image/marcador.png") no-repeat left;
+    padding-left: 20px;
+}
+
+.container-newsform-class {
+    margin-top: 20px;
+}
+
+.cointainer-form-class {
+    margin: 10px 0 0 5px;
+    background-color: white;
+    width: 167px
+}
+
+.cointainer-form-class > p > label {
+    font-size: .9em;
+}
+
+.cointainer-form-class > p > input {
+    width: 160px;
+}
+
+.cointainer-form-class > p > button {
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    color: white;
+    background-color: #9e032f;
+    border: 1px solid #800226;
+    cursor: pointer;
+}
+
+.cointainer-form-class > p > button:hover {
+    background-color: #800226;
+    border: 1px solid #64021e;
+}
+
+.finaldiv-class {
+    clear: both;
+}
+
+
+/* 
+    HIGHLIGHTS
+*/
+
+
+.container-hightlight-class {
+    background-color: white;
+    width: 260px;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.newleg-class {
+    text-transform: uppercase;
+    background-color: #b10333;
+    color: white;
+    padding: 6px;
+    margin-left: 7px;
+    width: 170px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.container-hightlight-class > p > img {
+    width: 230px;
+    margin-left: 10px;
+}
+
+.newleg-lorem-class {
+    padding: 8px;  
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.container-hightlight-class > p > a {
+    text-decoration: none;
+    padding: 8px; 
+    font-size: .9em;
+    color: #b10333;
+}
+
+
+
+/* WORLD */
+
+.recentnews-class {
+    background-color: white;
+    width: 260px;
+    margin-top: 20px;
+    padding-top: 5px;
+}
+
+.img-tec-class {
+    width: 80px;
+}
+
+.img-world-class {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.content-world-class {
+    margin-left: 10px;
+    float: left;
+    width: 150px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+
+/*
+    SECONDARY
+*/
+
+.interviewfelipe-class {
+    text-transform: uppercase;
+    background-color: #b10333;
+    color: white;
+    padding: 6px;
+    margin-left: 7px;
+    width: 210px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: .8em;
+}
+
+
+
+
+footer { 
+    text-align: center;
+    background-color: #294671;
+    color: white;
+    padding: 20px;
+    width: 750px;
+    margin: 0 auto;
+}
