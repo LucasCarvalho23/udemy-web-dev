@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    background-color: #05052b;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* 
+    HEADER
+*/
+
+
+header {
+    background: url(../image/header.jpg) repeat-x;
+    height: 240px;
+    color: white;
+}
+
+.container-header-class {
+    width: 750px;
+    height: 233px;
+    margin: auto;
+}
+
+.container-header-class > p {
+    margin-left: -3000px;
+}
+
+.header-name-class {
+    width: 100px;
+    margin: 0 0 0 50px;
+}
+
+.img-right-class {
+    width: 160px;
+    margin: 0 0 0 300px;
+}
+
+.navbar-class {
+    margin: 10px 0 0 180px;
+}
+
+.navbar-class > ul > li {
+    display: inline;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    border-radius: 5px;
+    margin-left: 2px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.navbar-class > ul > li:hover {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+/*
+    MAIN    
+*/
+
+main {
+    width: 770px;
+    margin: auto;
+    background: black url("../image/background-main.jpg");
+}
+
+.container-principal-content-class, .container-secondary-content-class, .container-navigation-content-class {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.container-principal-content-class {
+    width: 270px;
+    float: left;
+    margin: 20px 0px 20px 205px;
+}
+
+.container-secondary-content-class {
+    width: 270px;
+    float: left;
+    margin: 20px 0px 20px 15px;
+}
+
+.container-navigation-content-class {
+    width: 180px;
+    float: left;
+    margin: 20px 0px 20px -750px;
+}
+
+
+/* PRINCIPAL */
+
+.first-notice-class > img {
+    margin: 10px 0 0 5px;
+    width: 240px;
+    height: 150px;
+}
+
+.first-notice-class > h3 {
+    margin: 5px;
+    padding: 2px;
+    border-bottom: 1px solid #05052b;
+}
+
+.first-notice-class > p {
+    margin: 5px;
+    padding: 2px;
+}
+
+.first-notice-class > p > a {
+    text-decoration: none;
+}
+
+.first-notice-class > p > a:hover {
+    color: #05052b;
+}
+
+.first-notice-class > h3:hover {
+    background-color: rgb(230, 229, 229);
+    border-bottom: 1px solid rgb(230, 229, 229);
+}
+
+.latest-news-class {
+    margin-top: 20px;
+}
+
+.latest-news-class > div > img {
+    margin: 10px 0 0 5px;
+    width: 130px;
+    float: left;
+}
+
+.text-latest-class {
+    width: 100px;
+    float: left;
+    margin: 5px 0 0 10px;
+    font-size: .8em;
+}
+
+.text-latest-class p {
+    padding: 2px;
+}
+
+.text-latest-class a {
+    text-decoration: none;
+}
+
+.text-latest-class a:hover {
+    color: #05052b;
+}
+
+
+/* CONSOLES */
+
+fieldset {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+legend {
+    font-size: .7em;
+}
+
+main > div > ul > fieldset > li {
+    font-size: .9em;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+main > div > ul > fieldset > li:hover {
+    color: #05052b;
+}
+
+.finaldiv-class {
+    clear: both;
+}
+
+
+/* 
+    FOOTER
+*/
+
+footer {
+    margin-top: 10px;
+    background-color: #05052b;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
