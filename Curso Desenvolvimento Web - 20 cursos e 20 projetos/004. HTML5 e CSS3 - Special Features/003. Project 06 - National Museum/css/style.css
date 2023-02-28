@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/* DEFAULT 
+---------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:link, a:visited, a:active {
+    color: #af670a;
+    text-decoration: none;
+}
+a:hover {
+    color: #227115;
+}
+body {
+    background: #f4f2ec url("../image/fundo.png") repeat-x;
+    font-size: 12px;
+    width: 1080px;
+    margin: 0 auto;
+}
+fieldset {
+    border: none;
+}
+legend {
+    display: none;
+}
+h3 {
+    color: #227115;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+
+
+/* HEADER
+------------- */
+header {
+    padding: 15px 0px;
+    height: 55px;
+}
+body > header > h1 {
+    float: left;
+}
+body > header > h1 > a {
+    display: block;
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    background: url("../image/logo.png") no-repeat;
+}
+
+/* NAV */
+nav > ul {
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+nav > ul > li {
+    float: left;
+}
+nav > ul > li > a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    border: 1px solid #252217;
+}
+nav > ul > li > a:hover {
+    color: white; 
+    border-bottom: 1px solid #af670a;
+}
+
+
+
+
+/* MAIN
+------------- */
+.main-container-class {
+    width: 710px;
+    float: left;
+}
+main > aside {
+    background-color: #ebe7dd;
+    width: 350px;
+    float: right;
+    padding-bottom: 30px;
+}
+.main-container-class > section > article {
+    padding: 10px;
+}
+.main-container-class > section > article > h3 {
+    margin-bottom: 20px;
+}
+
+/* VIDEO */
+.video-class {
+    float: left;
+    width: 310px;
+    margin-left: 25px;
+}
+
+/* MAP */
+.map-class {
+    float: left;
+    width: 310px;
+    margin-left: 37px;
+}
+
+/* EXHIBITIONS */
+.exhibitions-class {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+
+/* TEXT LOREM */
+.text-class {
+    float: left;
+    width: 310px;
+    margin: 15px 0 0 25px;
+}
+.exhibitions-class > ul {
+    margin-left: 20px;
+}
+
+
+
+
+/* ASIDE 
+---------------- */
+.visit-container-class {
+    background-color: #cdc8b1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+.visit-container-class > h4 {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+}
+.visit-container-class > fieldset > label {
+    padding-left: 10px;
+}
+.visit-container-class > fieldset > input {
+    height: 20px;
+    border: 1px solid #ada484;
+    width: 80px;
+}
+aside > section > button {
+    background-color: #9b9271;
+    color: white;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%; 
+    font-size: 1.2em;
+}
+#num-people-class {
+    width: 30px;
+}
+.container-gaallery-class > h4 {
+   margin: 20px 0px 0px 20px;
+   color: #86521a;
+   text-transform: uppercase;
+   padding-bottom: 3px;
+}
+.container-img-class {
+    padding: 0px 20px;
+    margin-left: 30px;
+}
+.container-img-class> a {
+    display: block;
+    background: url("../image/fundo-foto.png") no-repeat;
+    float: left;
+    padding: 18px 15px;
+}
+.container-img-class > a > img {
+    height: 93px;
+    width: 93px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+
+
+
+/* FOOTER
+-------------------- */
+footer {
+    padding: 20px 0px 30px 0px;
+    text-align: center;
+    background: url("../image/fundo-rodape.png") no-repeat center top;
+    margin-top: 20px;
+    font-style: italic;
+}
+footer > span {
+    font-weight: bold;
+}

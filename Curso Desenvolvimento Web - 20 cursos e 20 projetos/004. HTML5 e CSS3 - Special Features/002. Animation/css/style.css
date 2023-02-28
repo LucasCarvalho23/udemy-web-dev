@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+}
+
+@keyframes animation-div1 {
+    from {
+        background-color: violet;
+    }
+
+    to {
+        background-color: purple;
+    }
+}
+
+.div1-class {
+    background-color: violet;
+    width: 250px;
+    height: 250px;
+    animation-name: animation-div1;
+    animation-duration: 3s;
+}
