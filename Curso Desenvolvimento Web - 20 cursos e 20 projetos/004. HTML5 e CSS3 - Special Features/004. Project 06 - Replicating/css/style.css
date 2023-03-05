@@ -1,0 +1,238 @@
+@charset "UTF-8";
+
+/* DEFAULT 
+----------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color0: #227115;
+    --color1: #a9ff9c;
+    --color2: #11360b;
+}
+
+body {
+    background: url("../image/header.png") repeat-x;
+}
+
+body > .main-container-class {
+    margin: auto;
+    width: 1080px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: var(--color0);
+    text-transform: uppercase;
+}
+
+
+
+/* HEADER 
+------------------- */
+
+header {
+    
+}
+
+header > h1 {
+    float: left;
+}
+
+header > h1 > a {
+    display: block;
+    background: url("../image/logo.png") no-repeat;
+    width: 270px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 1em;
+    text-indent: -9999px;
+}
+
+
+/* NAV */
+header > nav > ul {
+    list-style: none;
+    padding-top: 34px;
+}
+
+header > nav > ul > li {
+    float: left;
+    padding: 10px;
+}
+
+header > nav > ul > li > a {
+    color: var(--color1);
+    border: 1px solid var(--color0);
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+.home-class {
+    margin-left: 70px;
+}
+
+header > nav > ul > li > a:hover {
+    color: white;
+    border-bottom: 1px solid var(--color1);
+}
+
+
+
+/* MAIN
+--------------------- */
+.main-img-class {
+    float: left;
+    width: 710px;
+    height: 320px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.281);
+}
+
+.parchment-img-class {
+    float: left;
+    margin-left: 18px;
+    width: 350px;
+    height: 320px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.281);
+}
+
+.video-class, .map-class {
+    float: left;
+}
+
+.see-video-class, .list-class, .map-class, .royal-guard-class {
+    margin: 15px;
+}
+
+.see-video-class > h3, .list-class > h3, .map-class > div > h3 {
+    font-size: 1em;
+    padding: 10px 0px;
+}
+
+.list-class > ul {
+    padding: 5px 0 10px 25px;
+}
+
+.list-class > ul > li {
+    font-size: .8em;
+    line-height: 1.5em;
+}
+
+.list-class > ul > li > a {
+    color: var(--color0);
+    border-bottom: 1px solid white;
+}
+
+.list-class > ul > li > a:hover {
+    color: var(--color2);
+    border-bottom: 1px solid var(--color0);
+}
+
+.royal-guard-class {
+    width: 320px;
+}
+
+.royal-guard-class p {
+    color: var(--color2);
+}
+
+
+/* RIGHT SIDE
+------------------ */
+
+.side-bar-class {
+    float: right;
+    padding: 15px;
+}
+
+.side-bar-class > .section1-class {
+    width: 320px;
+    height: 150px;
+    background-color: rgba(10, 9, 9, 0.329);
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.side-bar-class > .section2-class {
+    width: 320px;
+    height: 320px;
+    background-color: rgba(131, 113, 113, 0.329);
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.section1-class > h3, .section2-class > h3 {
+    padding: 10px;
+    color: black;
+    font-size: .9em;
+}
+
+.section1-class > p {
+    margin: 10px 0;
+}
+
+.section1-class > p > span {
+    padding: 0 15px;
+    font-size: .8em;
+    text-transform: uppercase;
+}
+
+.section1-class > p > input {
+    width: 150px;
+    border: 1px solid gray;
+    border-top: none;
+}
+
+.section1-class > p > button {
+    margin: 5px 15px;
+    width: 280px;
+    padding: 5px;
+    font-size: .8em;
+    text-transform: uppercase;
+    background-color: var(--color0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.section1-class > p > button:hover {
+    background-color: var(--color2);
+}
+
+.img-gallery-class {
+    width: 130px;
+    height: 130px;
+    float: left;
+    background: url("../image/fundo-foto.png") no-repeat;
+}
+
+.container-img-class {
+    margin-left: 30px;
+}
+
+.img-01-class {
+    margin: 19px 16px;
+}
+
+
+/* FOOTER
+----------------- */
+footer {
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: var(--color0);
+    color: white;
+    font-style: italic;
+    font-size: .8em;
+    padding: 10px;
+    text-align: center;
+}
