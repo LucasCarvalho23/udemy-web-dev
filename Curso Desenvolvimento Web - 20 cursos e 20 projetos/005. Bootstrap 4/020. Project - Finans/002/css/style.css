@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-link-class:hover {
+    color: white;
+}
+
+#container-navbar-id {
+    text-align: center;
+}
+
+#container-navbar-id > ul > li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#container-navbar-id > ul > li:hover {
+    background-color: #fabb00;
+    border-radius: 10px;
+}
+
+.home {
+    background-color: #ffc107;
+}
+
+.box-class {
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.text-class {
+text-align: center;
+}
+
+footer p a {
+    margin: 5px 15px;
+}
