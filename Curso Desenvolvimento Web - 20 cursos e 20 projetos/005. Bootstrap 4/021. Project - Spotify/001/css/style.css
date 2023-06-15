@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body, .home-class {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(../image/capa.png),
+                url(../image/ruido.png),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+    background-attachment: fixed;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav-transparent {
+    background: rgba(0,0,0,.6);
+    padding: 15px 0;
+}
+
+.link-class {
+    color: white;
+}
+
+.link-class:hover {
+    color: #9bf0e1;
+}
+
+.navbar-light, .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,.1);
+}
+
+.divisor {
+    margin: 12px;
+    width: 1px;
+    height: 15px;
+    background-color: white;
+}
+
+.center-class {
+    text-align: center;
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: background .4s, color .4s;
+    padding: 10px 20px;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -.05em;
+    padding-bottom: 50px;
+    color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -.04em;
+}
+
+.btn-purple {
+    background-color: #7c25f8;
+    margin: 20px;
+}
+
+.btn-purple:hover {
+    background-color: #6207e3;
+    color: white;
+}
+
+.btn-white {
+    border: 2px solid white;
+}
+
+.btn-white:hover {
+    color: black;
+    background-color: white;
+}
+
+.services-class {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.services-class h2, h3 {
+    color: #7c25f8;
+}
+
+.albums-class {
+    padding: 10px 0;
+}
+
+.resorces-class {
+    padding: 20px 0;
+}
+
+.resorces-class > div > div > div > h2, 
+.resorces-class > div > div > div > p {
+    color: white;
+}
+
+.resorces-class > div > div > div > h3 {
+    color: #9bf0e1;
+}
+
+.rotation-class {
+    transform: rotate(30deg);
+    padding-left: 80px;
+    padding-top: 40px;
+}
+
+footer {
+    background-color: black;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
+
+footer ul {
+    padding-top: 10px;
+}
+
+footer h4 {
+    padding-top: 20px;
+    margin-top: 20px;
+    color: #919496;
+    font-size: .8em;
+}
+
+footer li {
+    color: white;
+    font-size: .8em;
+}
+
+footer li:hover {
+    color: #9bf0e1;
+}
+
+.social-footer-class > ul {
+    float: right;
+}
