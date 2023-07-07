@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-class {
+    height: 10vh;
+}
+
+.section-class {
+    text-align: center;
+    padding: 20px 0;
+    width: 70%;
+    height: 80vh;
+    margin: auto;
+    background-color: rgb(253, 237, 239);
+    border-radius: 10px;
+}
+
+.name-class, .height-class, .weight-class {
+    width: 100px;
+}
+
+.p-button-class {
+    padding-top: 30px;
+}
+
+.button-class:hover {
+    background-color: white;
+    color: rgba(13, 110, 253, 1);
+}
+
+.result-class {
+    padding-top: 20px;
+    font-size: .8em;
+}
