@@ -1,0 +1,2 @@
+4#Rede 3 não conecta#Rede#Conecta, mas não abre página
+3#Photoshop#Software#Não abre o PS na minha máquina
