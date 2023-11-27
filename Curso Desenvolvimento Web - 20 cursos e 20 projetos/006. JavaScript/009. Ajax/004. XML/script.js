@@ -43,17 +43,29 @@ class Movie {
                     this.gender = ''
 
                     for (this.g in this.item.genero) {
-                        console.log (this.item.genero[this.g])
+                        if (this.gender) {
+                            this.gender += ', '
+                        }
+                        this.gender += this.item.genero[this.g]['#text']
                     }
 
                     this.p3 = document.createElement('p')
                     this.p3.innerHTML = `<strong>Gender: </strong> ${this.gender}`
 
+                    this.casting = ''
+
+                    for (this.g in this.item.elenco.ator) {
+                        if (this.casting) {
+                            this.casting += ', '
+                        }
+                        this.casting += this.item.elenco.ator[this.g]['#text']
+                    }
+
                     this.p4 = document.createElement('p')
-                    this.p4.innerHTML = `<strong>Casting: </strong> ${this.item['titulo']['#text']}`
+                    this.p4.innerHTML = `<strong>Casting: </strong> ${this.casting}`
 
                     this.p5 = document.createElement('p')
-                    this.p5.innerHTML = `<strong>Date: </strong> ${this.item['titulo']['#text']}`
+                    this.p5.innerHTML = `<strong>Date: </strong> ${this.item.dataLancamento['#text']} (${this.item.dataLancamento['@attributes']['pais']})`
                     
                     this.hr = document.createElement('hr')
 
