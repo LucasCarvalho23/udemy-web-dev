@@ -80,20 +80,6 @@ class Movie {
                     document.querySelector("#container-list").appendChild(this.divRow)
                 }
 
-
-                /* 
-
-                <div class = "row">
-                    <div class = "col">
-                        <p><strong>Title: </strong> Title for movie</p>
-                        <p><strong>Resume: </strong> Resume for movie</p>
-                        <p><strong>Gender: </strong> Gender for movie</p>
-                        <p><strong>Casting: </strong> Casting for movie</p>
-                        <p><strong>Date: </strong> Date for movie</p>
-                    </div>
-                </div>
-
-                */
             }
 
             if (this.xmlFiles.readyState == 4 && this.xmlFiles.status == 404) {
