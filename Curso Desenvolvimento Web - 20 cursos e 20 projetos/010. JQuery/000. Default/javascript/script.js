@@ -1,1 +1,5 @@
-$('h1').html('The library Jquery its working')
+$(document).ready(
+    () => {
+
+    }
+)
