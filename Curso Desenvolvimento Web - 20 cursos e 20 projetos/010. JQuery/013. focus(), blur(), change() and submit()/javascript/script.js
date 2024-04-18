@@ -1,25 +1,13 @@
 $(document).ready(
     () => {
 
-        $("#name-input").focus(
-            (e) => {
-                $(e.target).addClass('inputFocus')
-            }
-        )
-
-        $("#email-input").focus(
+        $("#name-input, #email-input").focus(
             (e) => {
                 $(e.target).addClass('inputFocus')
             }
         )
         
-        $("#name-input").blur(
-            (e) => {
-                $(e.target).removeClass('inputFocus')
-            }
-        )
-
-        $("#email-input").blur(
+        $("#name-input,#email-input").blur(
             (e) => {
                 $(e.target).removeClass('inputFocus')
             }
