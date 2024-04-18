@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.div01 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.highlighted {
+    background-color: lightpink;
+}
