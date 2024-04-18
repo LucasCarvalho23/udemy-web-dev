@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.blur-style {
+    background-color: white;
+}
+
+.focus-style {
+    background-color: rgb(230, 227, 227);
+}
