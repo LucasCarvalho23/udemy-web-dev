@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.div-class {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 30px 0 0 20px;
+    border: 1px solid gray;
+}
+
+.div2-class {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    margin: 30px 0 0 20px;
+    border: 1px solid gray;
+}
