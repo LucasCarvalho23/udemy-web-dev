@@ -1,0 +1,45 @@
+/* MIXIN */
+
+@mixin default($color-bg, $color) {
+    color: $color;
+    background-color: $color-bg;
+    padding: 10px 5px;
+}
+
+h1 {
+    @include default(black, white);
+}
+
+h2 {
+    @include default(green, white);
+}
+
+
+/* HERITAGE */
+%class1 {
+    color: red;
+}
+
+%class2 {
+    background-color: lightpink;
+}
+
+.vermelho {
+    @extend %class1;
+    @extend %class2;
+    padding: 5px;
+}
+
+
+/* IF - ELSE */
+$cor: black;
+
+@if ($cor == green) {
+    .ifelse {
+        color: blue;
+    }
+} @else {
+    .ifelse {
+        color: violet;
+    }
+}

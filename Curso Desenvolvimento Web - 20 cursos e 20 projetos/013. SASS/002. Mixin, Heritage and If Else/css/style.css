@@ -1,0 +1,26 @@
+/* MIXIN */
+h1 {
+  color: white;
+  background-color: black;
+  padding: 10px 5px; }
+
+h2 {
+  color: white;
+  background-color: green;
+  padding: 10px 5px; }
+
+/* HERITAGE */
+.vermelho {
+  color: red; }
+
+.vermelho {
+  background-color: lightpink; }
+
+.vermelho {
+  padding: 5px; }
+
+/* IF - ELSE */
+.ifelse {
+  color: violet; }
+
+/*# sourceMappingURL=style.css.map */
