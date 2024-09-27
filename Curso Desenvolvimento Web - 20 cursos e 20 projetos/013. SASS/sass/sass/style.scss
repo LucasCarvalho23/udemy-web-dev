@@ -1,0 +1,66 @@
+/*
+    FOR: 
+        through = until the number (<=)
+        to = one number after (<)
+*/
+
+@for $i from 1 through 3 {
+    .item-#{$i} {
+        background-color: lightblue;
+        margin-bottom: 2px;
+    }
+}
+
+
+/* 
+    WHILE
+*/
+
+$count: 4;
+@while $count < 7 {
+    .item-#{$count} {
+        background-color: lightgreen;
+        margin-bottom: 2px;
+    }
+    $count: $count + 1;
+}
+
+
+/* 
+    EACH
+*/
+
+$list: lightblue,yellow,lightgreen;
+$countEach: 7;
+@each $color in $list {
+    .item-#{$countEach} {
+        background-color: $color;
+        margin-bottom: 2px;
+    }
+    $countEach: $countEach + 1;
+
+}
+
+
+/* 
+    FUNCTION
+*/
+
+$total: 12;
+
+@function largura-coluna($coluna) {
+    @return percentage($coluna / $total);
+}
+
+@for $i from 1 through $total {
+    .col-#{$i} {
+        background-color: lightblue;
+        width: largura-coluna($i);
+    }
+}
+
+.alerta {
+    background: mix(green,yellow,50%);
+    color: white;
+}
+

@@ -1,0 +1,103 @@
+/*
+    FOR: 
+        through = until the number (<=)
+        to = one number after (<)
+*/
+.item-1 {
+  background-color: lightblue;
+  margin-bottom: 2px; }
+
+.item-2 {
+  background-color: lightblue;
+  margin-bottom: 2px; }
+
+.item-3 {
+  background-color: lightblue;
+  margin-bottom: 2px; }
+
+/* 
+    WHILE
+*/
+.item-4 {
+  background-color: lightgreen;
+  margin-bottom: 2px; }
+
+.item-5 {
+  background-color: lightgreen;
+  margin-bottom: 2px; }
+
+.item-6 {
+  background-color: lightgreen;
+  margin-bottom: 2px; }
+
+/* 
+    EACH
+*/
+.item-7 {
+  background-color: lightblue;
+  margin-bottom: 2px; }
+
+.item-8 {
+  background-color: yellow;
+  margin-bottom: 2px; }
+
+.item-9 {
+  background-color: lightgreen;
+  margin-bottom: 2px; }
+
+/* 
+    FUNCTION
+*/
+.col-1 {
+  background-color: lightblue;
+  width: 8.3333333333%; }
+
+.col-2 {
+  background-color: lightblue;
+  width: 16.6666666667%; }
+
+.col-3 {
+  background-color: lightblue;
+  width: 25%; }
+
+.col-4 {
+  background-color: lightblue;
+  width: 33.3333333333%; }
+
+.col-5 {
+  background-color: lightblue;
+  width: 41.6666666667%; }
+
+.col-6 {
+  background-color: lightblue;
+  width: 50%; }
+
+.col-7 {
+  background-color: lightblue;
+  width: 58.3333333333%; }
+
+.col-8 {
+  background-color: lightblue;
+  width: 66.6666666667%; }
+
+.col-9 {
+  background-color: lightblue;
+  width: 75%; }
+
+.col-10 {
+  background-color: lightblue;
+  width: 83.3333333333%; }
+
+.col-11 {
+  background-color: lightblue;
+  width: 91.6666666667%; }
+
+.col-12 {
+  background-color: lightblue;
+  width: 100%; }
+
+.alerta {
+  background: #80c000;
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
